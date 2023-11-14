@@ -1,7 +1,7 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
-	const diff= Number(date1.slice(9,11))-Number(date2.slice(9,11));
-	return diff;
+	let daydiff = Number(date2.slice(8))-Number(date1.slice(8));
+	return daydiff;
 };
 
 // Do not change the code below.
